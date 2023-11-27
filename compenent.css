@@ -1,0 +1,36 @@
+.silver-button {
+    border: 1px solid var(--brand-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--neutral-silver);
+    border-radius: 6px;
+  }
+  .silver-button p {
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-500);
+    line-height: var(--line-height-24);
+    color: var(--brand-primary);
+    padding: 10px 20px;
+  }
+  .primary-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--brand-primary);
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+  }
+  .primary-button p {
+    font-size: var(--font-size-14);
+    font-weight: var(--font-weight-500);
+    line-height: var(--line-height-24);
+    color: var(--default-white);
+  }
+  section{
+    width: 100%;
+    padding: 0 144px;
+  }

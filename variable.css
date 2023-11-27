@@ -1,0 +1,36 @@
+:root {
+    --brand-primary: #4caf4f;
+    --brand-secondary: #263238;
+    --brand-info: #2194f3;
+    --neutral-silver: #f5f7fa;
+    --text-gray-900: #18191f;
+    --neutral-d-grey: #4D4D4D;
+    --text-gray-900: #18191F;
+    --default-white: #FFF;
+  
+    /* font saize------ */
+    --font-size-64: 64px;
+    --font-size-36: 36px;
+    --font-size-16: 16px;
+    --font-size-14: 14px;
+    /* line-height */
+    --line-height-76: 76px;
+    --line-height-44: 44px;
+    --line-height-24: 24px;
+    --line-height-20: 20px;
+    /* fontweiight----- */
+    --font-weight-600: 600;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+  }
+  body {
+    background-color: var(--default-white);
+    overflow-x: none;
+  }
